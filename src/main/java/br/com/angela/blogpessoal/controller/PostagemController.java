@@ -81,4 +81,23 @@ public class PostagemController {
 		}
 		postagemRepository.deleteById(id);
 	}
+	
+	
+	/*@GetMapping("/name/{name}")
+	public ResponseEntity<List<Category>> getByName(@PathVariable String name) {
+		return ResponseEntity.ok(categoryRepository.findAllByNameContainingIgnoreCase(name));
+	}
+	
+	@PostMapping
+	public ResponseEntity<Category> post(@Valid @RequestBody Category category) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(categoryRepository.save(category))
+	}
+	
+	@PutMapping
+	public ResponseEntity<Category> put(@Valid @RequestBody Category category) {
+		return categoryRepository.findById(category.getId()).map(response -> ResponseEntity)
+	}
+	*/
+	
+	
 }
