@@ -89,6 +89,13 @@
 			<artifactId>comercio-com-causa</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		
+		<!-- Dependência do Banco de dados PostgreSQL -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+		</dependency> 
+		
 	</dependencies>
 	<build>
 		<plugins>
